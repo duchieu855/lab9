@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab9</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./OwlCarousel2/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./OwlCarousel2/dist/assets/owl.theme.default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="./OwlCarousel2/dist/owl.carousel.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/40.1.0/classic/ckeditor.js"></script>
+
+</head>
+<body>
+    <!-- exercise 1 -->
+    <div id="div1">Let Jquery Ajax change this text</div>
+    <button id="loadBtn" type="button">Get External Content</button>
+
+
+    <!-- exercise 2 -->
+
+    <div id="owlCarousel" class="owl-carousel owl-theme">
+        <div class="item" > <img src="./img/source.avif" alt="img1"> </div>
+        <div class="item" > <img src="./img/2.avif" alt="img2"> </div>
+        <div class="item" > <img src="./img/3.avif" alt="img3"> </div>
+        <div class="item" > <img src="./img/4.avif" alt="img4"> </div>
+        <div class="item" > <img src="./img/5.avif" alt="img5"> </div>
+        <div class="item" > <img src="./img/6.avif" alt="img6"> </div>
+        <div class="item" > <img src="./img/2.avif" alt="img7"> </div>
+      </div>
+
+      <!-- exercise 3 -->
+      <div id="editor"></div>
+
+      <!-- exercise 5 -->
+      <table>
+        <thead>
+          <th>Name</th>
+          <th>Image</th>
+          <th>Price</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+
+
+
+
+      <script>
+        ClassicEditor.create(document.querySelector("#editor")).catch(
+	(error) => {
+		console.error(error);
+	    }
+    );
+      </script>
+     
+
+</body>
+</html>

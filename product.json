@@ -1,0 +1,52 @@
+[
+        {
+        "product_name": "shirt 1",
+        "product_image" : "./img/source.avig",
+        "product_price" : 1
+    },
+    {
+        "product_name": "shirt 2",
+        "product_image" : "./img/2.avig",
+        "product_price" : 2
+    },
+    {
+        "product_name": "shirt 3",
+        "product_image" : "./img/3.avig",
+        "product_price" : 3
+    },
+    {
+        "product_name": "shirt 4",
+        "product_image" : "./img/4.avig",
+        "product_price" : 4
+    },
+    {
+        "product_name": "shirt 5",
+        "product_image" : "./img/2.avig",
+        "product_price" : 5
+    },
+    {
+        "product_name": "shirt 6",
+        "product_image" : "./img/source.avig",
+        "product_price" : 6
+    },
+    {
+        "product_name": "shirt 7",
+        "product_image" : "./img/2.avig",
+        "product_price" : 7
+    },
+    {
+        "product_name": "shirt 8",
+        "product_image" : "./img/3.avig",
+        "product_price" : 8
+    },
+    {
+        "product_name": "shirt 9",
+        "product_image" : "./img/5.avig",
+        "product_price" : 9
+    },
+    {
+        "product_name": "shirt 10",
+        "product_image" : "./img/6.avig",
+        "product_price" : 10
+    }
+]
